@@ -36,16 +36,15 @@ const Faq = () => {
         
     ]);
 
-    const toggleFaq = (index: any) => {
+    const toggleFaq = (index: number) => {
         setFaq(faq.map((item, i) => {
             if (i === index) {
-                item.open = !item.open;
-            } else {
-                item.open = false;
+                return { ...item, open: !item.open };
             }
-            return item;
+            return { ...item, open: false };
         }));
     };
+    
     
     return (
         <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">

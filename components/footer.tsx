@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { Facebook, Twitter, LinkedinIcon as LinkedIn, Instagram } from 'lucide-react'
+import {  LinkedinIcon as LinkedIn } from 'lucide-react'
 
 export default function Footer() {
   return (
