@@ -11,11 +11,13 @@ export default function Footer() {
             {/* <Link href="/" className="text-2xl font-bold text-[#FF4958] mb-4 block">
               Milir
             </Link> */}
+            <Link href="/">
               <img
               className="w-auto h-8 hover:filter hover:brightness-0 hover:invert hover:sepia hover:saturate-200 hover:hue-rotate-330 transition duration-200"
               src="/images/Group 12.png"
               alt="Milir Logo"
             />
+            </Link>
             <p className="text-sm text-gray-400 mt-3">
               Converting free trial users into loyal customers with tactical conversion insights.
             </p>

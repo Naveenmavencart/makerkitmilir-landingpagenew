@@ -1,35 +1,3 @@
-// import { Button } from '@/components/ui/button'
-// import Image from 'next/image'
-
-// export default function Hero() {
-//   return (
-//     <section className="w-full min-h-screen bg-[#F8FAFC] flex items-center justify-center">
-//       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
-//         <div className="md:w-1/2 mb-8 md:mb-0">
-//           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0F172A] mb-6 animate-fade-in">
-//             Converting Free Trial Users<br />Into Loyal Customers
-//           </h1>
-//           <p className="text-xl lg:text-2xl text-[#64748B] mb-8 animate-slide-in">
-//             Turn freemium SaaS users into paid customers<br />with tactical conversion insights.
-//           </p>
-//           <Button className="bg-[#FF4958] text-white hover:bg-[#FF6B77] text-lg px-8 py-4 animate-fade-in">
-//             Get Free Trial
-//           </Button>
-//         </div>
-//         <div className="md:w-1/2 animate-fade-in">
-//           <Image
-//             src="/images/Screen.png"
-//             alt="Milir Dashboard"
-//             width={800}
-//             height={600}
-//             className="rounded-lg shadow-lg"
-//           />
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
-
 "use client"
 
 import { Button } from '@/components/ui/button'
