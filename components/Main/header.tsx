@@ -29,7 +29,7 @@ export default function Header() {
           <Link href="#pricing" className="text-[#0F172A] hover:text-[#FF4958] py-2 md:py-0 md:mr-6">
             Pricing
           </Link>
-          <Link href="#pricing" className="text-[#0F172A] hover:text-[#FF4958] py-2 md:py-0 md:mr-6">
+          <Link href="#why us" className="text-[#0F172A] hover:text-[#FF4958] py-2 md:py-0 md:mr-6">
             Why us
           </Link>
         </nav>

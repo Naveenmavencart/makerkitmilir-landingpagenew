@@ -67,7 +67,7 @@ export default function Hero() {
         >
           <div className="relative">
             <Image
-              src="/images/Screen.png"
+              src="/images/Milirpage.jpg"
               alt="SaaS Analytics Dashboard"
               width={800}
               height={600}

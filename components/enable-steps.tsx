@@ -183,7 +183,7 @@ export default function EnableSteps() {
   }
 
   return (
-    <section className="w-full bg-white min-h-screen flex flex-col justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <section id="how-it-works" className="w-full bg-white min-h-screen flex flex-col justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-center text-[#1a1a1a] mb-12">
           Enable SaaS Free Trial Conversion in a Few Steps

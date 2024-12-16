@@ -148,7 +148,7 @@ export default function HowItWorks() {
   }, []);
 
   return (
-    <section id="how-it-works" className="w-full bg-gradient-to-b from-[#F8FAFC] to-white py-20">
+    <section id="features" className="w-full bg-gradient-to-b from-[#F8FAFC] to-white py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-[#0F172A] mb-16">
           How Milir Turns Trial Users

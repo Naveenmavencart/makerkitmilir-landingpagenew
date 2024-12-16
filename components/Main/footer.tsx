@@ -26,15 +26,15 @@ export default function Footer() {
               <li><Link href="#features" className="hover:text-[#FF4958]">Features</Link></li>
               <li><Link href="#how-it-works" className="hover:text-[#FF4958]">How It Works</Link></li>
               <li><Link href="#pricing" className="hover:text-[#FF4958]">Pricing</Link></li>
-              <li><Link href="#pricing" className="hover:text-[#FF4958]">Why us</Link></li>
+              <li><Link href="#why us" className="hover:text-[#FF4958]">Why us</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li><Link href="/about" className="hover:text-[#FF4958]">Contact Us</Link></li>
-              <li><Link href="/careers" className="hover:text-[#FF4958]">Privacy Policy</Link></li>
-              <li><a href="#Terms-and-conditions" className="hover:text-[#FF4958]">Terms & Conditions</a></li>
+              <li><Link href="/privacy-and-policy" className="hover:text-[#FF4958]">Privacy Policy</Link></li>
+              <li><Link href="/terms-and-condition" className="hover:text-[#FF4958]">Terms & Conditions</Link></li>
              
             </ul>
           </div>
