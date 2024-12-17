@@ -59,7 +59,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="w-full min-h-screen relative flex items-center justify-center overflow-hidden">
+    <section className="w-full  flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
