@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#0F172A] text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             {/* <Link href="/" className="text-2xl font-bold text-[#FF4958] mb-4 block">
               Milir
@@ -32,7 +32,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
+            <h3 className="flex-wrap text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li><Link href="/about" className="hover:text-[#FF4958]">Contact Us</Link></li>
               <li><Link href="/privacy-and-policy" className="hover:text-[#FF4958]">Privacy Policy</Link></li>
