@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const steps = [
   {
@@ -93,7 +94,9 @@ export default function HowItWorks() {
         </div>
         <div className="mt-16 text-center">
           <Button className="bg-[#FF4958] text-white hover:bg-[#FF6B77] text-lg px-8 py-3">
-            Get Started
+          <Link href="https://milir-maker-it-ui.vercel.app/auth/sign-in">
+                Get Started
+              </Link>
           </Button>
         </div>
       </div>

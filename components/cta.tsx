@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { Check } from 'lucide-react'
+import Link from 'next/link';
 
 const benefits = [
   "Extremely cost-effective solution",
@@ -26,8 +27,12 @@ export default function CTA() {
           </ul>
         </div>
         <div className="text-center">
-          <Button className="bg-[#FF4958] hover:bg-[#54ACA7] text-white text-lg px-8 py-4 rounded-md transition-colors duration-300">
+          <Button className="bg-[#FF4958] hover:bg-[#f2827c] text-white text-lg px-8 py-4 rounded-md transition-colors duration-300">
+         
+            <Link href="https://milir-maker-it-ui.vercel.app/auth/sign-in">
             Start Your Free Trial Now
+              </Link>
+            
           </Button>
           <p className="text-[#54ACA7] mt-4 text-sm font-medium">No credit card required. Cancel anytime.</p>
         </div>

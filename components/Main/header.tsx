@@ -57,10 +57,17 @@ export default function Header() {
           {isMenuOpen && (
             <div className="flex flex-col mt-4 md:hidden border-t pt-4">
               <Button className="gap-1 text-black hover:bg-[#f5f2f2] w-full mb-2">
+                
+                <Link href="https://milir-maker-it-ui.vercel.app/auth/sign-in">
                 Sign In
+              </Link>
+                
               </Button>
               <Button className="bg-[#FF4958] text-white hover:bg-[#FF6B77] w-full">
+                
+                <Link href="https://milir-maker-it-ui.vercel.app/auth/sign-up">
                 Sign Up
+              </Link>
               </Button>
             </div>
           )}
@@ -70,10 +77,14 @@ export default function Header() {
         <div className="flex items-center gap-x-4">
           {/* Always visible buttons */}
           <Button className="hidden md:inline gap-1 text-black hover:bg-[#f5f2f2]">
-            Sign In
+          <Link href="https://milir-maker-it-ui.vercel.app/auth/sign-in">
+                Sign In
+              </Link>
           </Button>
           <Button className="hidden md:inline bg-[#FF4958] text-white hover:bg-[#FF6B77]">
-            Sign Up
+          <Link href="https://milir-maker-it-ui.vercel.app/auth/sign-up">
+                Sign Up
+              </Link>
           </Button>
           <button
             className="md:hidden ml-4"
