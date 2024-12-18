@@ -21,7 +21,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="why us" className="w-full bg-white py-20">
+    <section id="why-us" className="w-full bg-white py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-[#0F172A] mb-12">
           Supercharge Freemium<br />Conversion with Milir
