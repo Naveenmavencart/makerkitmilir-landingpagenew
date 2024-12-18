@@ -128,9 +128,9 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll)
   }, [])
 
-  const onUpdateActiveLink = (value : any) => {
-    setActiveLink(value) // Updates the active link state
-  }
+  const onUpdateActiveLink = (value: string) => {
+    setActiveLink(value); // Updates the active link state
+  };
 
   return (
     <header
