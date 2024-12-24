@@ -6,10 +6,10 @@ const Contact = () => {
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="max-w-2xl mx-auto text-center">
                     <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl">Contact us</h2>
-                    <p className="max-w-xl mx-auto mt-8 text-base leading-relaxed text-gray-500">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                    {/* <p className="max-w-xl mx-auto mt-8 text-base leading-relaxed text-gray-500">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p> */}
                 </div>
 
-                <div className="max-w-5xl mx-auto mt-10 sm:mt-16">
+                <div className="max-w-5xl mx-auto mb-10 sm:mt-16">
                     <div className="grid grid-cols-1 gap-6 px-8 text-center md:px-0 md:grid-cols-3">
                         {/* <div className="overflow-hidden bg-white rounded-xl">
                             <div className="p-6">
