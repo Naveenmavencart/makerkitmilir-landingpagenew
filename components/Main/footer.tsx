@@ -70,7 +70,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Company</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/about" className="hover:text-[#FF4958]">
+              <Link href="/contact-form" className="hover:text-[#FF4958]">
                 Contact Us
               </Link>
             </li>
